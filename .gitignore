@@ -1,0 +1,5 @@
+.vscode/
+.idea/
+*.log
+check_temp.php
+check_users.php

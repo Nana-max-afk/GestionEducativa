@@ -1,0 +1,63 @@
+body{
+    padding: auto;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; 
+}
+table{
+    border: 2px solid #4CAF50; 
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+th {
+    background-color: #2196F3; 
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+td{
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+tr:nth-child(even){
+    background-color: rgba(15, 23, 42, 0.03); 
+}
+tr:nth-child(odd){
+    background-color: transparent; 
+}
+tr td {
+    background-color: inherit;
+}
+
+/* Ajustes extra para el formulario */
+.modal-content input[type="text"],
+.modal-content input[type="number"] {
+    border: 1px solid #ccc;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    outline: none;
+}
+
+.modal-content input:focus {
+    border-color: #2196F3;
+    box-shadow: 0 0 5px rgba(33, 150, 243, 0.3);
+}
+
+.modal-content label {
+    font-size: 0.9em;
+    margin-bottom: 4px;
+}
+
+/* Estilo para los iconos de la tabla */
+table td i {
+    transition: transform 0.2s;
+}
+
+table td i:hover {
+    transform: scale(1.2);
+}
